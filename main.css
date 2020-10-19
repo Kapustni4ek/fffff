@@ -1,0 +1,1647 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+.row{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+header{
+    background-color: #59162B;
+
+}
+.punct{
+    display: inline-block;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.paragraph {
+    display: inline-block;
+    padding:20px 0px;
+    margin-left: 20px;
+    line-height: 6px;
+}
+.navbar_top{
+    background-color: #501427;
+    max-width: 2000px;
+}
+.cyrcle{
+    border-radius: 90px;
+    width: 67px;
+    height: 67px;
+    border: 2px solid #C19129;
+    margin-top: 0px;
+    transition: all 0.2s;
+    user-select: none;
+}
+.cyrcle:hover{
+    background-color: #6e1c36;
+    cursor: pointer;
+}
+.icon_logo{
+    width: 52%;
+    margin-top: 3px;
+    margin-left: 17px;
+}
+.menu {
+    max-width: 1500px;
+    border-bottom: 1px solid #C19129;
+    user-select: none;
+}
+.full_logo{
+    width: 98%;
+    text-align: left;
+    padding-bottom: 2px;
+}
+.gdz{
+    user-select: text;
+    font-size: 26px;
+    margin-top: 1px;
+    font-weight: 600;
+    padding: 6px 0px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #793301, #B0530F, #C56F10, #DC9122, #DE9B34, #AC5612);
+}
+.universe{
+    user-select: text;
+    height:34px;
+    font-size: 19px;
+    font-weight:  800;
+    border-top: 3px solid #A67021;
+    border-bottom: 3px solid #A67021;
+    font-family: serif;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #E9B837, #B58E2B, #886B20, #654F18);
+}
+.margin-top{
+    margin-top: 10px;
+}
+.menu_button{
+    margin-bottom: 20px;
+    border: 2px solid #501427;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: 30px;
+    transition: all 0.2s;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, #E9B837, #B58E2B, #886B20, #654F18);
+}
+.menu_button:hover{
+    border: 2px solid #A67021;
+}
+.margin_button{
+    margin-top: 6px;
+    user-select: text;
+}
+.togeser{
+    width: 600px;
+    float: right;
+    margin-right: 20px;
+}
+.wrap{
+    margin-top: 50px;
+    float: right;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #A67021;
+    line-height: 55px;
+    padding-right: 68px;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+  }
+  .wrap:hover{
+    background: #6e1c36;
+    cursor: pointer;
+  }
+  .input{
+    border: 0;
+    background: transparent;
+    width: 0%;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(175, 175, 175);
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  .wrap .lupa{
+    color: rgb(184, 184, 184);
+    position: absolute;
+    right: 19px;
+    top: 17px;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 4px;
+  } 
+  .wrap.active{
+    width: 400px;
+    padding-left: 25px;
+    transition: all 0.5s ease;
+    position: relative;
+  }
+  .input.active{
+    width: 98%;
+    padding-left: 5px;
+    transition: all 0.5s 0.8s ease;
+    
+  }
+  input::placeholder {
+    color: rgb(179, 179, 179);
+  }
+  .welcome{
+    max-width: 2000px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url(Glavnaya/tanos.png);
+    background-size: 60%;
+  }
+.tanos{
+    width: 100%;
+}
+.tanos_welcome{
+    width: 15%;
+}
+.welcome{
+    background-color: #501427;
+}
+.welcome_text{
+    padding-top: 200px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Anonymous Pro', monospace;
+}
+.dobro{
+    color:rgb(231, 231, 231);
+    font-size: 45px;
+    font-weight: 300;
+}
+.dobro_double{
+    color: rgb(209, 209, 209);
+    font-size: 22px;
+}
+.conteiner{
+    width: 70%;
+}
+.swipe{
+    font-size: 12px;
+    line-height: 0px;
+    text-align: center;
+    color:rgb(219, 219, 219);
+    padding-top: 150px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    animation: mymove 3s infinite;
+    font-family: 'Amatic SC', cursive;
+}
+@keyframes mymove{
+    0%{
+        color:rgb(167, 167, 167);
+    }
+    50%{
+        color:#fff;
+    }
+    100%{
+        color: rgb(167, 167, 167);
+    }
+}
+.glove_img{
+    max-width: 400px;
+    cursor: pointer;
+}
+.home_page{
+    background-color: #33193E;
+    user-select: none;
+}
+.conteinera{
+    background-color: #422050;
+    max-width: 2000px;
+    border-top: 1px solid #C19129;
+}
+.stone{
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.stone:hover{
+    transform: translateY(20px)
+}
+.stone_bottom{
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.stone_bottom:hover{
+    transform: translateY(-20px)
+}
+.stone_right{
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.stone_right:hover{
+    transform: translateX(20px)
+}
+.stone_left{
+    width: 350px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.stone_left:hover{
+    transform: translateX(-20px)
+}
+.stones_top{
+    padding-top: 60px;
+}
+.green{
+    display: inline-block;
+}
+.yelow{
+    display: inline-block;
+}
+.pink{
+    display: inline-block;
+    margin-right: 30px;
+}
+.orange{
+    display: inline-block;
+    margin-left: 30px;
+}
+.blue{
+    display: inline-block;
+}
+.red{
+    display: inline-block;
+}
+.blue_red{
+    padding-top: 50px;
+}
+.glove{
+    display: inline-block;
+    width: 250px;
+    height: 380px;
+    background-image: url(stones/obich.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.glove:hover{
+    background-image: url(stones/dovzriv.png);
+    background-position: center;
+}
+.other{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 100px;
+    user-select: text;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+}
+.thing{
+    color:#fff;
+    font-size: 21px;
+    font-weight: 400;
+    user-select: text;
+    text-shadow: 3px 3px 5px #A67021;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+}
+.wrapper-img{    
+    position: relative;
+    max-width: 300px;
+}
+.wrapper-img .img-hide{    
+    opacity: 0;      
+}
+.wrapper-img:hover .img-hide{
+    opacity: 1;
+    position: absolute; top: 0; left: 0;  
+    transition: all 0.5s ease-in-out;   
+}
+.more {
+    user-select: text;
+    max-width: 2000px;
+    background-color: #501427;
+    padding-bottom: 100px;
+    border-top: 1px solid #C19129;
+}
+.on_more{
+    background-color:#33193E;
+}
+#flip{
+    color:#fff;
+    width: 60px;
+    line-height: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.flip_text{
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+.panels{
+    width: 90%;
+}
+#panel{
+    width: 87%;
+    padding-bottom: 30px;
+    display: none;
+}
+.in_glove{
+    padding-bottom: 150px;
+}
+.green_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/green.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.green_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/greenhover.png);
+}
+.yelow_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/yelow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 0px;
+}
+.yelow_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/yelowhover.png);
+}
+.pink_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/pink.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 0px;
+}
+.pink_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/pinkhover.png);
+}
+.orange_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.orange_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/orangehover.png);
+}
+.blue_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 0px;
+}
+.blue_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/bluehover.png);
+}
+.red_stone{
+    width: 300px;
+    height: 200px;
+    background-image: url(stones/red.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 115%;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 0px;
+}
+.red_stone:hover{
+    transform: translateY(-20px);
+    background-image: url(stones/redhover.png);
+}
+.row{margin:0 !important; padding:0 !important;}
+.col-lg-3{margin:0 !important; padding:0 !important;}
+.col-lg-2{margin:0 !important; padding:0 !important;}
+
+
+.img_clasik{
+    background-color: #CACACA;
+    height: 250px;
+    width: 85%;
+    transition: all 0.4s;
+}
+.img_clasik:hover{
+    transform: translateY(-16px);
+    background-color: #a8a8a8;
+    box-shadow: 0px 15px 30px #350917;
+}
+.row_padding{
+    padding-top: 50px;
+}
+.txt_clasik{
+    color:#fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Anonymous Pro', monospace;
+}
+.clasik{
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+.block{
+    width: 16%;
+}
+.ss_clasik{
+    transition: all 1s;
+}
+.ss_clasik:hover{
+    text-decoration:none;
+}
+.ss_stone:hover{
+    text-decoration: none;
+}
+.flip_text{
+    cursor: pointer;
+}
+#flip{
+    transition: all 0.2s;
+    font-family: 'Anonymous Pro', monospace;
+}
+#flip:hover{
+    color: #AFAFAF;
+}
+.flip_text{
+    font-family: 'Anonymous Pro', monospace;
+}
+footer{
+    background-color: #47070E;
+    border-top: 1px solid #C19129;
+}
+.footer{
+    max-width: 2000px;
+}
+.news{
+    background-color: #422050;
+    max-width: 2000px;
+    background-image: url(Glavnaya/grut.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 28%;
+    border-top: 1px solid #C19129;
+}
+.information{
+    background-color: #886b7d;
+    font-family: 'Anonymous Pro', monospace;
+
+}
+.news_block{
+    background-color: #fff;
+    height: 700px;
+    color: #000;
+    font-size: 30px;
+    box-shadow: 0px 0px 50px  #8e44ad;
+    width: 90%;
+}
+
+.advertising{
+    background-color: grey;
+    height: 860px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0px 0px 50px  #8e44ad;
+    width: 25%;
+}
+.news_blocks{
+    width: 75%;
+}
+.dop_txt{
+    color: #65307B;
+}
+.dop_block{
+    background-color: #fff;
+    height: 150px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    box-shadow: 0px 0px 50px  #8e44ad;
+    width: 90%;
+}
+.news_padding{
+    padding-top:150px;
+    padding-bottom: 150px;
+    width: 90%;
+}
+.plus{
+    font-size: 23px !important;
+    font-weight: 300;
+    color: rgb(216, 216, 216);
+}
+.time{
+    padding-top: 320px;
+}
+.time_new{
+    padding-top: 320px;
+}
+.footer_txt{
+    color: #949494;
+    font-size: 22px;
+    padding-top: 50px;
+    font-family: 'Anonymous Pro', monospace;
+    word-spacing: -2px;
+}
+.conteinr{
+    width: 80%;
+}
+.panels{
+    width: 87%;
+}
+.avtor{
+    color: gold;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.time_new{
+    color: #74358f;
+}
+
+.vk{
+    color: #D3D3D3;
+    font-weight: 500;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.pointer{
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #D3D3D3;
+}
+.pointer:hover{
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+.dop_txt{
+    padding-top: 50px;
+}
+.up{
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #D3D3D3;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+}
+.up:hover{
+    color: #FFD700;
+    text-decoration: none;
+    padding-bottom: 2px;
+    transform: translateY(-5px);
+}
+@media(max-width:1440px){
+    .img_clasik{
+        height: 200px;
+    }
+}
+@media(max-width:1240px){
+    .img_clasik{
+        height: 170px;
+    }
+}
+@media(max-width:1260px){
+    .togeser{
+        width: 400px;
+    }
+    .news_padding{
+        width: 100%;
+    }
+    .txt_clasik{
+        font-size: 18px;
+    }
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 19px;
+    }
+    .swipe{
+        font-size: 10px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 30px;
+    }
+    .input{
+        font-size: 16px;
+    }
+    .glove{
+        width: 230px;
+        height: 340px;
+    }
+    .green_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .yelow_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .blue_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .red_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .pink_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .orange_stone{
+        width: 260px;
+        height: 170px;
+    }
+    .flip_text{
+        font-size: 19px;
+    }
+    .footer_txt{
+        font-size: 19px;
+    }
+    .avtor{
+        font-size: 13px;
+    }
+    .up{
+        font-size: 20px;
+    }
+}
+@media(max-width:1130px){
+    .wrap.active{
+        width: 350px;
+    }
+    .txt_clasik{
+        font-size: 17px;
+    }
+}
+@media(max-width:1100px){
+    
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 37px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 17px;
+    }
+    .swipe{
+        font-size: 10px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 28px;
+    }
+    .input{
+        font-size: 15px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .yelow_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .blue_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .red_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .pink_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .orange_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 18px;
+    }
+    .avtor{
+        font-size: 12px;
+    }
+    .up{
+        font-size: 19px;
+    }
+}
+@media(max-width:1024px){
+    .wrap.active{
+        width: 300px;
+    }
+    .conteiner{
+        width: 70%;
+    }
+    .img_clasik{
+        height: 150px;
+    }
+    .txt_clasik{
+        font-size: 16px;
+    }
+    #button-up{
+        width: 40px;
+        bottom: 100px;			
+        color: #fff;
+        background-color: transparent;
+        text-align: center;
+        font-size: 20px;
+        padding: 0px;
+        transition: 0.3s;
+        border-radius: 90px;
+        border: 2px solid gold;
+        float: right;
+    }
+    
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 35px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 16px;
+    }
+    .swipe{
+        font-size: 9px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 250px;
+        height: 170px;
+    }
+    .yelow_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .blue_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .red_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .pink_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .orange_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 18px;
+    }
+    .avtor{
+        font-size: 12px;
+    }
+    .up{
+        font-size: 19px;
+    }
+    .thing{
+        font-size: 19px;
+    }
+}
+@media(max-width:978px){
+    .glove{
+        display:none;
+    }
+    .in_glove{
+        background-image: url(stones/obich.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25%;
+    }
+    .pink{
+        margin-right: 100px;
+    }
+    .orange{
+        margin-left: 100px;
+    }
+    .pink_orange{
+        margin-top: 50px;
+    }
+    
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 33px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 15px;
+    }
+    .swipe{
+        font-size: 8px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .yelow_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .blue_stone{
+        width: 240px;
+        height: 170px;
+        margin-top: 70px;
+    }
+    .red_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .pink_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .orange_stone{
+        width: 240px;
+        height: 170px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 16px;
+    }
+    .avtor{
+        font-size: 11px;
+    }
+    .up{
+        font-size: 17px;
+    }
+    .thing{
+        font-size: 18px;
+    }
+    .more{
+        padding-bottom: 50px;
+    }
+    .img_clasik{
+        height: 130px;
+    }
+}
+@media(max-width:925px){
+    .menu_button{
+        margin-bottom: 20px;
+        border: 2px solid #A67021;
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        font-weight: 700;
+        border-radius: 5px;
+        cursor: pointer;
+        float: right;
+        margin-top: 30px;
+        transition: all 0.2s;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    .txt_clasik{
+        font-size: 16px;
+    }
+    .menu_button:hover{
+        border: 2px solid #A67021;
+    }
+    .wrap.active{
+        width: 350px;
+    }
+    .dobro{
+        font-size: 35px;
+    }
+    .dobro_double{
+        font-size: 21px;
+    }
+    .swipe{
+        font-size: 10px;
+    }
+    .togeser{
+        margin-right: 20px;
+    }
+    
+}
+@media(max-width:860px){
+    .txt_clasik{
+        font-size: 15px;
+    }
+    .img_clasik{
+        height: 125px;
+    }
+}
+@media(max-width:805px){
+    .orange{
+        margin-left: 65px;
+    }
+    .pink{
+        margin-right: 65px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 33px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 15px;
+    }
+    .swipe{
+        font-size: 8px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 230px;
+        height: 170px;
+    }
+    .yelow_stone{
+        width: 230px;
+        height: 170px;
+    }
+    .blue_stone{
+        width: 230px;
+        height: 170px;
+        margin-top: 10px;
+    }
+    .red_stone{
+        width: 230px;
+        height: 170px;
+    }
+    .pink_stone{
+        width: 230px;
+        height: 170px;
+    }
+    .orange_stone{
+        width: 230px;
+        height: 170px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 16px;
+    }
+    .avtor{
+        font-size: 11px;
+    }
+    .up{
+        font-size: 17px;
+    }
+    .thing{
+        font-size: 18px;
+    }
+    .more{
+        padding-bottom: 50px;
+    }
+    .img_clasik{
+        height: 120px;
+    }
+}
+@media(max-width:769px){
+    .orange{
+        margin-left: 65px;
+    }
+    .pink{
+        margin-right: 65px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 31px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 14px;
+    }
+    .swipe{
+        font-size: 8px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 220px;
+        height: 150px;
+    }
+    .yelow_stone{
+        width: 220px;
+        height: 150px;
+    }
+    .blue_stone{
+        width: 220px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .red_stone{
+        width: 220px;
+        height: 150px;
+    }
+    .pink_stone{
+        width: 220px;
+        height: 150px;
+    }
+    .orange_stone{
+        width: 220px;
+        height: 150px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 14px;
+    }
+    .avtor{
+        font-size: 10px;
+    }
+    .up{
+        font-size: 15px;
+    }
+    .thing{
+        font-size: 16px;
+    }
+    .more{
+        padding-bottom: 50px;
+    }
+    .txt_clasik{
+        font-size: 15px;
+    }
+    .img_clasik{
+        height: 107px;
+    }
+}
+@media(max-width:700px){
+    .wrap.active{
+        width: 300px;
+    }
+    .img_clasik{
+        height: 100px;
+    }
+
+}
+@media(max-width:676px){
+    .orange{
+        margin-left: 50px;
+    }
+    .pink{
+        margin-right: 50px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 31px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 14px;
+    }
+    .swipe{
+        font-size: 8px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .yelow_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .blue_stone{
+        width: 210px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .red_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .pink_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .orange_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 14px;
+    }
+    .avtor{
+        font-size: 10px;
+    }
+    .up{
+        font-size: 15px;
+    }
+    .thing{
+        font-size: 16px;
+    }
+    .more{
+        padding-bottom: 50px;
+    }
+    
+}
+@media(max-width:663px){
+    .yelow{
+        margin-top: 40px;
+    }
+    .orange{
+        margin-top: 40px;
+    }
+    .red{
+        margin-top: 40px;
+    }
+    .txt_clasik{
+        font-size: 14px;
+    }
+    .img_clasik{
+        height: 90px;
+    }
+}
+@media(max-width:617px){
+    .in_glove{
+        background-image: none;
+    }
+    .wrap.active{
+        width: 300px;
+        margin-right: -100px;
+    }
+    .orange{
+        margin-left: 0px;
+    }
+    .pink{
+        margin-right: 0px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .dobro{
+        color:rgb(231, 231, 231);
+        font-size: 31px;
+        font-weight: 300;
+    }
+    .dobro_double{
+        color: rgb(209, 209, 209);
+        font-size: 14px;
+    }
+    .welcome_text{
+        width: 85%;
+    }
+    .swipe{
+        font-size: 8px;
+        line-height: 0px;
+        text-align: center;
+        color:rgb(219, 219, 219);
+        padding-top: 150px;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+        animation: mymove 3s infinite;
+        font-family: 'Amatic SC', cursive;
+    }
+    .other{
+        font-size: 26px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .glove{
+        width: 210px;
+        height: 320px;
+    }
+    .green_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .yelow_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .blue_stone{
+        width: 210px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .red_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .pink_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .orange_stone{
+        width: 210px;
+        height: 150px;
+    }
+    .flip_text{
+        font-size: 18px;
+    }
+    .footer_txt{
+        font-size: 14px;
+    }
+    .avtor{
+        font-size: 10px;
+    }
+    .up{
+        font-size: 15px;
+    }
+    .thing{
+        font-size: 16px;
+    }
+    .more{
+        padding-bottom: 50px;
+    }
+    .txt_clasik{
+        font-size: 16px;
+    }
+    .block{
+        width: 30%;
+    }
+    .conteiner{
+        width: 90%;
+    }
+    .news_padding{
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .news{
+        background-image: none;
+    }
+    #button-up{
+        width: 30px;
+        padding: 0px;
+    }
+    .suka{
+        font-size: 10px;
+    }
+    .img_clasik{
+        height: 130px;
+    }
+}
+@media(max-width:530px){
+    .other{
+        font-size: 28px;
+    }
+    .dobro{
+        font-size: 30px;
+    }
+    .dobro_double{
+        font-size: 18px;
+    }
+    .swipe{
+        font-size: 9px;
+    }
+
+    .welcome{
+        background-size: 70%;
+    }
+    .menu_button{
+        display: block;
+    }
+    .wrap{
+        margin-top: 150px;
+        margin-right: -130px;
+    }
+    .wrap.active{
+        margin-right: -200px;
+        width: 50%;
+    }
+    .txt_clasik{
+        font-size: 15px;
+    }
+    .img_clasik{
+        height: 130px;
+    }
+    
+}
+@media(max-width:480px){
+    .dobro{
+        font-size: 26px;
+    }
+    .dobro_double{
+        font-size: 15px;
+    }
+    .swipe{
+        font-size: 7px;
+    }
+    .txt_clasik{
+        font-size: 14px;
+    }
+}
+@media(max-width:450px){
+    .welcome{
+        background-size: 80%;
+    }
+    .welcome_text{
+        text-align: center;
+    }
+    .wrap.active{
+        margin-right: -210px;
+        width: 50%;
+    }
+    .txt_clasik{
+        font-size: 13px;
+    }
+    .img_clasik{
+        height: 140px;
+    }
+    .block{
+        width: 42%;
+    }
+}
+@media(max-width:415px){
+    .wrap.active{
+        margin-right: -220px;
+        width: 50%;
+    }
+}
+@media(max-width:390px){
+    .welcome{
+        background-size: 90%;
+    }
+    .wrap.active{
+        margin-right: -230px;
+        width: 49%;
+    }
+    .img_clasik{
+        height: 125px;
+    }
+}
+@media(max-width:370px){
+    
+    .wrap.active{
+        margin-right: -237px;
+        width: 49%;
+    }
+}
+@media(max-width:355px){
+    
+    .wrap.active{
+        margin-right: -240px;
+        width: 48%;
+    }
+}
+@media(max-width:345px){
+    .welcome{
+        background-size: 100%;
+        background-position-y: bottom;
+    }
+    .img_clasik{
+        height: 105px;
+    }
+}
+@media(max-width:335px){
+    
+    .wrap.active{
+        margin-right: -210px;
+        width: 42%;
+    }
+    .img_clasik{
+        height: 105px;
+    }
+}
+@media(max-width:320px){
+    
+    .wrap.active{
+        margin-right: -220px;
+        width: 42%;
+    }
+    .img_clasik{
+        height: 100px;
+    }
+}
+@media(max-width:305px){
+    
+    .wrap.active{
+        margin-right: -217px;
+        width: 40%;
+    }
+    .gdz{
+        font-size: 20px;
+    }
+    .universe{
+        font-size: 16px;
+    }
+    .dobro{
+        font-size: 24px;
+    }
+    .dobro_double{
+        font-size: 14px;
+    }
+    .img_clasik{
+        height: 80px;
+    }
+}
+.suka{
+    padding-bottom: 12px;
+}
+#button-up{
+    width: 70px;
+    bottom: 100px;			
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    font-size: 30px;
+    padding: 7px;
+    transition: 0.3s;
+    border-radius: 90px;
+    border: 2px solid gold;
+    float: right;
+  } 
+  #button-up:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: #AFAFAF;
+    background-color: #5C0913;
+  }
+.conteinera{
+    width: 85%;
+}
+.img_clasik{
+    background-image: url(rise.jpg);
+    background-size: 230%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ГДЗ Бесконечности </title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="plagins/animate.css">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="перчатка.png" type="image/x-icon">
+
+         <!-- Latest compiled and minified CSS -->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+         <!-- jQuery library -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+         <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+         <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <script src="plagins/wow.min.js"></script>
+         <script src="plagins/fm.revealator.jquery.min.js"></script>
+         <script src="plagins/jquery-1.11.3.min.js"></script>
+         <link rel="stylesheet" href="plagins/fm.revealator.jquery.min.css">
+
+        <script>
+            new WOW().init();
+        </script>
+
+
+    <script>
+
+        $(document).ready(function(){
+        
+        $(".lupa").click(function(){
+            $(".wrap, .input").toggleClass("active");
+            $("input[type='text']").focus();
+        });
+        
+        });
+
+        $(document).ready(function(){
+        $(".menu_button").click(function(){
+            $(".drop_menu").slideToggle("slow");
+        });
+        });
+        
+
+
+
+        $(document).ready(function(){
+        $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+            
+            if (!$(this).data('status')) {
+                $(".flip_text").replaceWith('<p class="flip_text">Ещё</p>');
+                $(".plus").removeClass('fa fa-angle-double-down').addClass('fa fa-angle-double-up');
+;
+                $(this).data('status', true);
+            }
+            else {
+                $(".flip_text").html('<p class="flip_text">Ещё</p>');
+                $(".plus").removeClass('fa fa-angle-double-up').addClass('fa fa-angle-double-down');
+                $(this).data('status', false);
+            }
+        });
+        });
+
+        $(document).ready(function() { 
+        var button = $('#button-up');	
+        $(window).scroll (function () {
+            if ($(this).scrollTop () > 300) {
+            button.fadeIn();
+            } else {
+            button.fadeOut();
+            }
+        });	 
+        button.on('click', function(){
+        $('body, html').animate({
+        scrollTop: 0
+        }, 800);
+        return false;
+        });		 
+        });
+
+
+    </script>
+
+    <script src ="jquery.scrollme.js"> </script> 
+    <script src ="jquery.scrollme.min.js"> </script>
+    </head>
+
+
+<center>
+    <header>
+        <div class="navbar_top">
+            <div class="menu">
+                <div class="full_logo">
+                    <div class="logo">
+                        <a href="index.html">
+                            <div class="cyrcle">
+                                <img src="stones/obich.png" alt="" class="icon_logo">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="paragraph">
+                        <div class="gdz">
+                            <p>GDZ</p>
+                        </div>
+                        <div class="universe">
+                            <p class="margin-top">БЕСКОНЕЧНОСТИ</p>
+                        </div>
+                    </div>
+
+                    <div class="togeser">
+                        <a href="menu.html">
+                            <div class="menu_button">
+                                <p class="margin_button">МЕНЮ</p>
+                            </div>
+                        </a>
+                        
+
+                        <div class="wrap">
+                            <form>
+                            <input type="text" class="input" placeholder="Галактический поиск">
+                            </form>
+                            <i class="fa fa-search lupa" aria-hidden="true"></i>
+                        </div>
+   
+                    </div>    
+                </div>
+
+
+            </div>
+        </div>
+    
+        <div class="welcome">
+            <div class="conteiner">
+
+                    <div class="welcome_text">
+                        <div class="dobro">
+                            <p>Добро пожаловать</p>
+                        </div>
+                        <div class="dobro_double">
+                            <p class="in_dobro">Ответы на всё что угодно</p>
+                        </div>
+
+                        <div class="swipe">
+                            <p>SWIPE</p>
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    
+            </div>
+
+
+            
+        </div>
+  
+    </header>
+
+    <body>
+        <div class="home_page">
+            <div class="conteinera">
+                <div class="other">
+                    <p>Основные предметы</p>
+                </div>
+                <div class="in_glove">
+                    <div class="stones_top">
+                        <div class="green">
+                            <a href="On_subjects/russkiy/russkiy.html" class="ss_stone">
+                                <div class="green_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Русский язык</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="yelow">
+                            <a href="On_subjects/algebra/algebra.html" class="ss_stone">
+                                <div class="yelow_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Алгебра</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="pink_orange">
+                        <div class="pink">
+                            <a href="On_subjects/anglisskiy/anglisskiy.html" class="ss_stone">
+                                <div class="pink_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Английский язык</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="glove">
+
+                        </div>
+
+                        <div class="orange">
+                            <a href="On_subjects/fizika/fizika.html" class="ss_stone">
+                                <div class="orange_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Физика</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                
+                    <div class="blue_red">
+                        
+                        <div class="blue">
+                            <a href="On_subjects/geometry/geometry.html" class="ss_stone">
+                                <div class="blue_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Геометрия</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="red">
+                            <a href="On_subjects/himia/himia.html" class="ss_stone">
+                                <div class="red_stone">
+                                    
+                                </div>
+                                <div class="thing">
+                                    <p>Химия</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="on_more">
+            <div class="more">
+
+                <div class="panels">
+                    <div class="row_padding">
+                        <div class="row justify-content-center">
+                            
+                            <div class="block revealator-slideright revealator-delay4 revealator-once">
+                                <a href="On_subjects/algebra/algebra.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Алгебра</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block revealator-slideright revealator-delay2 revealator-once">
+                                <a href="On_subjects/geometry/geometry.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+    
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Геометрия</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block revealator-slideright revealator-once">
+                                <a href="On_subjects/russkiy/russkiy.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+    
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Русский язык</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block revealator-slideleft revealator-once">
+                                <a href="On_subjects/literatura/literatura.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+    
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Литература</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block revealator-slideleft revealator-delay2 revealator-once">
+                                <a href="On_subjects/anglisskiy/anglisskiy.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+    
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Английский язык</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block revealator-slideleft revealator-delay4 revealator-once">
+                                <a href="On_subjects/fizika/fizika.html" class="ss_clasik">
+                                    <div class="clasik">
+                                        <div class="img_clasik">
+    
+                                        </div>
+                                        <div class="txt_clasik">
+                                            <p>Физика</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    
+
+
+                    <div id="panel">
+                        
+                        <div class="row_padding">
+                            <div class="row justify-content-center">
+                                
+                                <div class="block">
+                                    <a href="On_subjects/himia/himia.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>Химия</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="block">
+                                    <a href="On_subjects/history/history.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>История</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="block">
+                                    <a href="On_subjects/obshestvo/obsestvo.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>Обществознание</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="block">
+                                    <a href="On_subjects/geography/geography.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>География</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="block">
+                                    <a href="On_subjects/informatika/informatika.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>Информатика</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="block">
+                                    <a href="On_subjects/matematika/matematika.html" class="ss_clasik">
+                                        <div class="clasik">
+                                            <div class="img_clasik">
+        
+                                            </div>
+                                            <div class="txt_clasik">
+                                                <p>Математика</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+                            </div>
+                            </div>
+                        </div>
+
+
+                        <div id="flip">
+                            <p class="flip_text">Ещё</p>
+                            <span class="plus fa fa-angle-double-down"></span>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+
+
+
+    <div class="information">
+        <div class="news">
+            <div class="conteiner">
+                <div class="news_padding">
+                    <div class="row justify-content-center buba" >
+                        <div class="news_blocks">
+                            <div class="news_block">
+                                <p class="time_new">Новости</p>
+                            </div>
+
+                            <div class="dop_block">
+                                <p class="dop_txt">Доп. новости</p>
+                            </div>
+                        </div>
+                            
+                        <div class="advertising">
+                            <p class="time">Речлама</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </body>
+
+
+    <footer>
+        <div class="footer">
+        
+            <div class="conteinr">
+                <div class="the_end">
+                    <div class="footer_txt">
+                        <p>Готовые домашние задания для облегчения жизни ребятам</p>
+                    </div>
+
+                    <div id="button-up" class="wow fadeInUp">
+                        <i class="fa fa-chevron-up suka"></i>	
+                    </div>
+                    
+                    <div class="avtor">
+                        <p>@Kapustni4ek</p>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="vk">
+                            <a>  
+                                <div class="row justify-content-center">
+                                    
+                                    <div class="letter_box">
+                                        <a href="https://vk.com/kapustni4ek" class="pointer">
+                                            <small class="up">С</small><small class="up">в</small><small class="up">я</small><small class="up">з</small><small class="up">ь </small><small class="up">с </small><small class="up">а</small><small class="up">д</small><small class="up">м</small><small class="up">и</small><small class="up">н</small><small class="up">и</small><small class="up">с</small><small class="up">т</small><small class="up">р</small><small class="up">а</small><small class="up">ц</small><small class="up">и</small><small class="up">е</small><small class="up">й</small>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    
+</center>
+
+</html>
